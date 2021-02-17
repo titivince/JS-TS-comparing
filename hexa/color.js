@@ -3,7 +3,7 @@ var color;
 var i;
 
 function generateRandomColor() {
-  color = '#';
+  color = "#";
   for (i = 0; i < 6; i++) {
     color += char[Math.floor(Math.random() * char.length)];
   }
