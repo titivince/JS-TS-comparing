@@ -11,8 +11,7 @@ window.onload = function () {
         outText.innerHTML += mc.text.charAt(i);
         setTimeout(fastWriter, speed);
       }
-    }
-    else {
+    } else {
       if (i < mc.text.length) {
         outName.innerHTML += mc.name.charAt(i);
         outText.innerHTML += mc.text.charAt(i);

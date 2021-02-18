@@ -1,4 +1,4 @@
-window.onload = function() {
+window.onload = function () {
   var outName = document.getElementById("name"),
       outText = document.getElementById("text"),
       next = document.getElementById("next"),
